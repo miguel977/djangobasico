@@ -33,3 +33,6 @@ def index(request):
 
 def celulares(request):
     return render(request, 'celulares.html')
+
+def moveis(request):
+    return render(request, 'moveis.html')
